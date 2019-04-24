@@ -1,0 +1,105 @@
+nav{ 
+    display: flex; 
+}
+
+nav div{ 
+    background-color: red;
+    width: 300px; 
+    height: 500px;
+    display: flex; 
+    flex-direction: column; 
+    transform: translateX(-50vw);
+    transition: 0.5s;
+}
+
+.abrirMenu{
+    transform: translateX(0);
+}
+
+nav div a { 
+    color: white;
+    font-size: 20pt;
+    text-decoration: none;
+}
+
+nav section aside{ 
+    width:100px; 
+    height: 3px; 
+    margin-top: 5px;
+    background-color: black;
+} 
+
+body{ 
+    margin: 0;
+}
+
+h1{
+    margin: 0; 
+    color:white; 
+    font-family: 'Pacifico', cursive;
+    font-size: 36pt; 
+    font-weight: 100;
+}
+
+header{ 
+    background-image: url("imagens/banner2.png"); 
+    background-size: cover; 
+    border-top: 10px; 
+    display: flex;
+    height: 450px;
+    justify-content: space-around; 
+    background-color: blue;
+}
+
+header div: first-child{ 
+    align-items: flex-start; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+header div: last-child{
+    display: flex; 
+    align-items: flex-end;
+
+}
+
+header div: last-child img{ 
+    width:330px;
+} 
+
+p{
+    width: 370px; 
+    font-size: 22px; 
+    color: black; 
+}
+
+span{
+    color: brown;
+}
+
+#divisaoDosIcones {
+    display: flex;
+    justify-content: space-around; 
+    width: 200px;
+    margin: 0; 
+}
+
+#divisaoDosIcones img{ 
+    width:20px;
+}
+
+#divisaoDosIcones div{
+    cursor: pointer;
+    width: 45px; 
+    height: 45px;
+    background-color: aquamarine;
+    border-radius: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+#divisaoDosIcones div:hover {
+background-color: blueviolet;
+}
